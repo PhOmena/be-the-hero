@@ -18,7 +18,6 @@ export default function Logon(){
         e.preventDefault();
 
         try {
-
             const response = await api.post('sessions', { id });
             localStorage.setItem('ongId', id);
             localStorage.setItem('ongName', response.data.name);
@@ -32,9 +31,8 @@ export default function Logon(){
     return (
         <div className="logon-container">
             <section className="form">
-                <img src={logoImg} alt="Be The Hero" />
+                <img className="logo" src={logoImg} alt="Be The Hero" />
                 <form onSubmit={handleLogin}>
-                    <h1>Logon</h1>
                     <input 
                         placeholder="Sua ID"
                         value={id}
@@ -49,7 +47,7 @@ export default function Logon(){
                 </form>
 
             </section>
-            <img src={heroesImg} alt="Heroes"/>
+            <img className="heroes" src={heroesImg} alt="Heroes"/>
         </div>
     );
 }

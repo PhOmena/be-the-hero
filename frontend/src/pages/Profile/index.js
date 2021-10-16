@@ -45,7 +45,7 @@ export default function Profile() {
                 <img src={logoImg} alt="Be the Hero" />
                 <span>Bem vindo (a), <strong>{ongName}</strong>!</span>
 
-                <Link className="button" to="incidents/new">Cadastrar novo caso</Link>
+                <Link className="button-new-case" to="incidents/new">Cadastrar novo caso</Link>
                 <button onClick={handleLogout} type="button">
                     <FiPower size={18} color="#fff" />
                 </button>
@@ -57,14 +57,17 @@ export default function Profile() {
                 {incidents.map(incident => (
                     <li key={incident.id}>
                         <strong>CASO</strong>
+                        <hr />
                         <p>{incident.title}</p>
                         <strong>DESCRIÇÃO</strong>
+                        <hr />
                         <p>{incident.description}</p>
                         <strong>VALOR</strong>
+                        <hr />
                         <p>{Intl.NumberFormat('pt-BR',{ style: 'currency', currency: 'BRL'}).format(incident.value)}</p>
 
                         <button onClick={() => handleDeleteIncident(incident.id)} type="button">
-                            <FiTrash2 size={20} color="#E02041" />
+                            <FiTrash2 className="trash" size={20} />
                         </button>
                     </li>
                 ))}
