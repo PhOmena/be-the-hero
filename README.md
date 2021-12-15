@@ -13,7 +13,7 @@
 
 ---
 
-A 11ª edição da Semana OmniStack, ocorrida entre 23/03 e 27/03, trouxe como projeto uma aplicação web e mobile inédita. Um sistema para conectar pessoas dispostas a ajudar a ONGs que precisam dessa ajuda.
+A 11ª edição da Semana OmniStack, trouxe como projeto uma aplicação web e mobile inédita. Um sistema para conectar pessoas dispostas a ajudar a ONGs que precisam dessa ajuda.
 
 Em uma semana foi desenvolvida uma aplicação do zero, dominando o backend, frontend e o mobile com uma única linguagem e uma única biblioteca de interfaces.
 
@@ -29,31 +29,25 @@ Rode ```npm start``` nas pastas backend e frontend para utilizar a versão web. 
 
 Rode ```npm start``` nas pastas backend e mobile, acesse **localhost:19002**, leia o QR Code no seu celular e utilize o aplicativo <img src="imgs/expo.png" alt="rocketseat" height="20"> Expo para rodar a versão mobile no seu smartphone. Ou com algum emulador Android/iOS para rodar no seu computador.
 
-## Telas
-
+### 📱 Mobile
 <p align="center">
-    <img alt="" title="" src="imgs/print1.png">
-    <img alt="" title="" src="imgs/print2.png">
-    <img alt="" title="" src="imgs/print3.png">
-    <img alt="" title="" src="imgs/print4.png">
-    <img alt="" title="" src="imgs/print5.png">
-    <img alt="" title="" src="imgs/print6.png">
-    <img alt="" title="" src="imgs/print7.png">
-    <img alt="" title="" src="imgs/print8.png">
-    <img alt="" title="" src="imgs/print9.png">
-    <img alt="" title="" src="imgs/print-insomnia.png">
+    <img alt="" title="" width="250" src="imgs/print5.png">
+    <img alt="" title="" width="250" src="imgs/print6.png">
+    <img alt="" title="" width="250" src="imgs/print7.png">
+    <img alt="" title="" width="250" src="imgs/print8.png">
+    <img alt="" title="" width="250" src="imgs/print9.png">
 </p>
-
-Veja também esse [vídeo](https://youtu.be/UygqW2eBJJA) com a demonstração das versões web e mobile rodando localmente.
 
 ---
 
-**&copy; <img src="imgs/rocketseat.svg" alt="rocketseat" height="20"> [Rocketseat](https://rocketseat.com.br/)**
-
-**Instrutor: [Diego Fernandes](https://github.com/diego3g) | CTO Rocketseat**
-
-## Licença
-[MIT](https://github.com/christyanbrayan/be-the-hero/blob/master/LICENSE)
+### 💻 Desktop
+<p align="center">
+    <img alt="" title="" width="800" src="imgs/print1.png">
+    <img alt="" title="" width="800" src="imgs/print2.png">
+    <img alt="" title="" width="800" src="imgs/print3.png">
+    <img alt="" title="" width="800" src="imgs/print4.png">
+    <img alt="" title="" width="800" src="imgs/print-insomnia.png">
+</p>    
 
 ---
 
